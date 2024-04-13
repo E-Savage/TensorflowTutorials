@@ -41,3 +41,4 @@ probability_model = tf.keras.Sequential([
     tf.keras.layers.Softmax()
 ])
 probability_model(x_test[:5])
+print(x_train.shape)
